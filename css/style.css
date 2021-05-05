@@ -36,7 +36,7 @@ header nav {
 header nav ul li {
 display: inline-block;
 margin-left: 45px;
-    
+    padding: 60px;
 }
 header nav ul li a {
     text-decoration: none;
