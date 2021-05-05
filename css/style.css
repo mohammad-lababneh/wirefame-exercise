@@ -1,0 +1,127 @@
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: f1f1f1;
+padding: 10px;
+
+}
+
+header {
+
+background-color:gray;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+h3{
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+
+
+}
+header nav {
+     /* height: 120px; */
+    line-height: 50px;
+     
+     padding: 15px;
+}
+
+header nav ul li {
+display: inline-block;
+margin-left: 45px;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+
+
+}
+section:first-child  article:first-child
+{
+    width: 960px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 20px;
+
+}
+section:first-child  article:first-child img {
+   
+width: 960px;    
+}
+
+
+section:first-child  article:nth-child(2)  
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 970px; 
+text-align: center;
+}
+
+section:first-child  article:nth-child(2) img:nth-child(2) 
+{
+  
+ 
+padding-right: 29px;
+padding-left: 29px;
+}
+
+
+section:first-child  article:nth-child(2) img:last-child 
+{
+    padding-right: 0px;
+}
+section:first-child  article:nth-child(2) img:last-child 
+{
+    padding-left: 0px;
+
+}
+
+
+section:last-child {
+display: block;
+width: 960;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+}
+
+section:last-child article:first-child  {
+display: block;
+float: left;
+
+width: 480px;
+padding-left: 180px;
+}
+section:last-child article:last-child {
+
+float:right;
+width: 420px;
+padding-right: 200px;
+overflow-x: auto;
+height: 400px;
+}
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer {
+    height: 100px;
+    margin-top: 500px;
+  /* line-height: 50px; */
+  padding: 0 20px;
+    background-color: gray;
+    color: gray;
+   
+}
