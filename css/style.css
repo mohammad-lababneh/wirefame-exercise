@@ -2,45 +2,61 @@ body {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: f1f1f1;
-padding: 10px;
+
 
 }
 
 header {
 
-background-color:gray;
-margin-bottom: 20px;
-margin-top: 20px;
+background-color:rgb(99, 97, 97);
+margin-bottom: 30px;
+
+width: auto;
 }
 
 h1 {
     font-weight: bolder;
+    margin-bottom: 30px;
 }
-h3{
+
+button:hover {
+    background-color: rgb(55, 221, 13);
+  }
+button{
     font-weight: bolder;
     color: white;
     background-color: black;
     width: 140px;
     height: 40px;
     text-align: center;
-
-
+    margin-top: 30px;
+    transition: 350ms;    
 }
 header nav {
-     /* height: 120px; */
-    line-height: 50px;
+     height: auto; 
+     /* line-height: 90px; */
      
-     padding: 15px;
-}
+      /* padding:50px; */
+} 
+
+ header nav ul img {
+margin-top: 60px;
+
+} 
+
+  
 
 header nav ul li {
 display: inline-block;
-margin-left: 45px;
     padding: 60px;
+
+    text-align: center;
 }
 header nav ul li a {
     text-decoration: none;
     color: #f2f2f2;
+    text-align: center;
+
 
 
 }
@@ -50,7 +66,7 @@ section:first-child  article:first-child
     display: block;
     margin-left: auto;
     margin-right: auto;  
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 section:first-child  article:first-child img {
@@ -66,6 +82,8 @@ section:first-child  article:nth-child(2)
     margin-right: auto;
 width: 970px; 
 text-align: center;
+margin-bottom: 30px;
+
 }
 
 section:first-child  article:nth-child(2) img:nth-child(2) 
@@ -118,10 +136,9 @@ button {
 
 footer {
     height: 100px;
-    margin-top: 500px;
-  /* line-height: 50px; */
-  padding: 0 20px;
+   
     background-color: gray;
     color: gray;
-   
+   width: auto;
+   margin-top: 500px; 
 }
