@@ -18,6 +18,17 @@ h1 {
     font-weight: bolder;
     margin-bottom: 30px;
 }
+ul img {
+position: relative;
+left: 40px;
+}
+ul li {
+    position: relative;
+ bottom: 30px;
+ margin-left: 30px;
+
+} 
+
 
 button:hover {
     background-color: rgb(55, 221, 13);
@@ -117,7 +128,8 @@ margin-top: 20px;
 section:last-child article:first-child  {
 display: block;
 float: left;
-
+position: relative;
+left: 10px;
 width: 480px;
 padding-left: 180px;
 }
@@ -132,6 +144,7 @@ height: 400px;
 button {
     background-color: rgb(0, 0, 0);
     color: white;
+    border-radius: 5px;
 }
 
 footer {
