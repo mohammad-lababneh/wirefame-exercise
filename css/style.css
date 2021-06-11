@@ -48,7 +48,7 @@
    /* -webkit-background-clip: text;  */
    width: 21%;
   }
-.imgContainer div h4 , p {
+.imgContainer div h4 ,  p {
     text-align: center;
     padding: 5px;
 }
@@ -69,3 +69,36 @@
 #about{
     margin: 50px 0 ;
 }
+h2 , h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#lastImg{
+    padding: 20px 20%;
+}
+
+#footerFirstDiv
+{
+    max-width:30%;
+}
+#footerlastDiv{
+   max-width: 30%;
+  
+}
+
+
+#footerDiv{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+  }
+  
+  #footerDiv > div{
+  
+  margin-left: auto;
+   margin-right: auto;
+  padding: 10px;
+   /* -webkit-background-clip: text;  */
+  }
+  
