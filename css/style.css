@@ -1,32 +1,66 @@
-/* header{
+header{
+    position: fixed;
     width:100%;
-    position:absolute;
     top:0;
     left:0;
+  
    
-} */
-/* .w3-top{
-    position: fixed;
+}
+.w3container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:1200px;
+    margin:auto;
+}
+ .w3-top{
+    height: 75px;
     width: 100%;
     font-family: "Karma", sans-serif;
-    color: lawngreen;
+    background-color: white;
     font-size: 30px;
-    margin-bottom: 10px;
-} */
+    /* margin-bottom: 10px; */
 
-/* .w3-top div {
+    
+} 
+.navDivs {
     margin-left: auto;
     margin-right: auto;
-   padding: 5px 10px;
- 
+    margin-top: 7px;
+   
 }
-.right{
-    float: right;
-}
-.center{
-    
-} */
 
+
+#mySidebar{
+    display:none;
+    width:40%;
+    height: 100%;
+    /* width: 0; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* z-index:2; */
+    min-width:300px;
+}
+#navContant{
+    position: relative;
+    top:10px;
+    width: 100%;
+    /* text-align: center; */
+   /* margin-left:0px; */
+}
+#navContant a{
+  display: block;
+  color: black;
+text-decoration: none; 
+font-size: 30px; 
+padding: 20px ;
+
+
+}
 
 
 
